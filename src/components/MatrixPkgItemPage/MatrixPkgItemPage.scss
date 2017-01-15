@@ -1,0 +1,11 @@
+.pkgItem{
+  width: 32%;
+  margin: 15px;
+  max-height: 220px;
+  min-height: 220px;
+}
+
+.pkgItemRow{
+  display: flex;
+  justify-content: space-between;
+}
