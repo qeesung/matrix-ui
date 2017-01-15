@@ -8,7 +8,7 @@ export const CoreLayout = ({ children }) => (
   <div>
     <MatrixSiderBar></MatrixSiderBar>
     <MatrixToolBar></MatrixToolBar>
-    <div className='core-layout__viewport'>
+    <div className='core-layout__viewport matrix-content text-center'>
       {children}
     </div>
   </div>
