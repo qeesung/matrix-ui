@@ -2,12 +2,12 @@
  * Created by qeesung on 2017/1/15.
  */
 import React from 'react'
-import './SiderBar.scss'
+import './MatrixSiderBar.scss'
 import Drawer from 'material-ui/Drawer';
 import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
 
-export const SiderBar = () => (
+export const MatrixSiderBar = () => (
   <div>
     <Drawer
       docked={true}
@@ -23,4 +23,4 @@ export const SiderBar = () => (
   </div>
 )
 
-export default SiderBar 
+export default MatrixSiderBar 
