@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../../components/Header'
+import SiderBar from '../../components/SiderBar'
 import './CoreLayout.scss'
 import '../../styles/core.scss'
 
 export const CoreLayout = ({ children }) => (
   <div className='container text-center'>
-    <Header />
+    <SiderBar></SiderBar>
     <div className='core-layout__viewport'>
       {children}
     </div>
