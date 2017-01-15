@@ -6,6 +6,7 @@ import './MatrixSiderBar.scss'
 import Drawer from 'material-ui/Drawer';
 import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
+import { IndexLink, Link } from 'react-router'
 
 export const MatrixSiderBar = () => (
   <div>
@@ -18,9 +19,11 @@ export const MatrixSiderBar = () => (
         title="Code Matrix"
         iconClassNameRight="muidocs-icon-navigation-expand-more"
       />
-      <RaisedButton className='tool-store' label="ToolStore" fullWidth={true} />
+      <Link to='/' activeClassName='route--active'>
+        <RaisedButton className='tool-store' label="ToolStore" fullWidth={true} />
+      </Link>
     </Drawer>
   </div>
 )
 
-export default MatrixSiderBar 
+export default MatrixSiderBar
