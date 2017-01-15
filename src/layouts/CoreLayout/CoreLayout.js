@@ -1,11 +1,13 @@
 import React from 'react'
-import SiderBar from '../../components/SiderBar'
+import MatrixSiderBar from '../../components/MatrixSiderBar'
+import MatrixToolBar from '../../components/MatrixToolBar'
 import './CoreLayout.scss'
 import '../../styles/core.scss'
 
 export const CoreLayout = ({ children }) => (
-  <div className='container text-center'>
-    <SiderBar></SiderBar>
+  <div>
+    <MatrixSiderBar></MatrixSiderBar>
+    <MatrixToolBar></MatrixToolBar>
     <div className='core-layout__viewport'>
       {children}
     </div>
